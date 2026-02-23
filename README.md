@@ -48,13 +48,17 @@ Each stage is separated into dedicated SQL files to reflect professional project
 ## 📂 Repository Structure
 
 ```
-01_setup.sql
-02_data_profiling.sql
-03_data_cleaning.sql
-04_feature_engineering.sql
-05_analysis.sql
-dataset/
-README.md
+nashville-housing-sql-analytics/
+│
+├── dataset/
+│ ├── 01_database_setup.sql
+│ ├── 02_table_creation.sql
+│ ├── 03_data_profiling.sql
+│ ├── 04_data_cleaning.sql
+│ ├── 05_feature_engineering.sql
+│ └── 06_analysis.sql
+│
+└── README.md
 
 ```
 
